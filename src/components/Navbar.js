@@ -11,7 +11,7 @@ const Navbar = () => {
         setNav(!nav);
     }
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-transparent text-gray-300'>
         <div>
             {/* add logo */}
         </div>
