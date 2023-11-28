@@ -6,6 +6,7 @@ import react from '../assets/react.png';
 
 const Skills = () => {
     const mobileCertification = "https://coursera.org/share/7674263f4dadd43d440b7e018ec27474"
+    
   return (
     <div name='skills'className='w-full bg-[#0a192f] text-gray-300'>
         {/* container */}
