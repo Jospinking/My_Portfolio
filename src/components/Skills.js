@@ -5,6 +5,7 @@ import java from '../assets/java.png';
 import react from '../assets/react.png';
 
 const Skills = () => {
+    const mobileCertification = "https://coursera.org/share/7674263f4dadd43d440b7e018ec27474"
   return (
     <div name='skills'className='w-full bg-[#0a192f] text-gray-300'>
         {/* container */}
@@ -12,6 +13,8 @@ const Skills = () => {
             <div className='pb-20'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Certifications</p>
                 <p className='py-4'>Introduction to Databases: <a href='https://drive.google.com/file/d/1ohDIaQqt216utXx1u9Z03CcKHP1v3uD6/view?usp=sharing'><u>Meta Database Engineer</u></a></p>
+                <p className='py-4'>Introduction to IOS Mobile Application Development: <a href={mobileCertification}><u>Meta Introduction to iOS Mobile Application Development</u></a></p>
+
             </div>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
