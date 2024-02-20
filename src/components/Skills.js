@@ -3,6 +3,9 @@ import javascript from '../assets/javascript.png';
 import Flutter from '../assets/flutter.png';
 import java from '../assets/java.png';
 import react from '../assets/react.png';
+import azure from '../assets/azure.png';
+import github from '../assets/github.png';
+
 
 const Skills = () => {
     const mobileCertification = "https://coursera.org/share/7674263f4dadd43d440b7e018ec27474"
@@ -37,6 +40,14 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={java} alt ="java icon"/>
                     <p className='my-4'>Java</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={azure} alt ="azure icon"/>
+                    <p className='my-4'>Azure DevOps</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={github} alt ="github icon"/>
+                    <p className='my-4'>GitHub</p>
                 </div>
             </div>
         </div>
