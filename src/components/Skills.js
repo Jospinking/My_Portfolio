@@ -5,19 +5,25 @@ import java from '../assets/java.png';
 import react from '../assets/react.png';
 import azure from '../assets/azure.png';
 import github from '../assets/github.png';
+import git from '../assets/Git.png';
+import graphQl from '../assets/GraphQL.png';
+import intro_mobile from '../assets/Intro_to_mobile_app.pdf';
+import intro_databases from '../assets/Intro_to_Databases_Meta.pdf';
+import AWS_udemy from '../assets/AWS_udemy.pdf';
 
 
-const Skills = () => {
-    const mobileCertification = "https://coursera.org/share/7674263f4dadd43d440b7e018ec27474"
-    
+
+
+const Skills = () => {    
   return (
     <div name='skills'className='w-full bg-[#0a192f] text-gray-300'>
         {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-20'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Certifications</p>
-                <p className='py-4'>Introduction to Databases: <a href='https://drive.google.com/file/d/1ohDIaQqt216utXx1u9Z03CcKHP1v3uD6/view?usp=sharing'><u>Meta Database Engineer</u></a></p>
-                <p className='py-4'>Introduction to IOS Mobile Application Development: <a href={mobileCertification}><u>Meta Introduction to iOS Mobile Application Development</u></a></p>
+                <p className='py-4'>Udemy: <a  target={"_blank"} rel="noopener noreferrer" href={AWS_udemy}><u>Ultimate AWS Certified Cloud Practitioner CLF-C02</u></a></p>
+                <p className='py-4'>Introduction to Databases: <a target={"_blank"} rel="noopener noreferrer" href={intro_databases}><u>Meta Introduction to Database Engineer</u></a></p>
+                <p className='py-4'>Introduction to IOS Mobile Application Development: <a target={"_blank"} rel="noopener noreferrer" href={intro_mobile}><u>Meta Introduction to iOS Mobile Application Development</u></a></p>
 
             </div>
             <div>
@@ -42,12 +48,20 @@ const Skills = () => {
                     <p className='my-4'>Java</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={graphQl} alt ="graphQl icon"/>
+                    <p className='my-4'>GraphQL</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={azure} alt ="azure icon"/>
                     <p className='my-4'>Azure DevOps</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={github} alt ="github icon"/>
                     <p className='my-4'>GitHub</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={git} alt ="git icon"/>
+                    <p className='my-4'>Git</p>
                 </div>
             </div>
         </div>
