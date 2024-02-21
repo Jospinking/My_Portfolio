@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.5d8667df.css",
-    "main.js": "/My_Portfolio/static/js/main.1fd89f47.js",
+    "main.css": "/My_Portfolio/static/css/main.fe5ce55b.css",
+    "main.js": "/My_Portfolio/static/js/main.fd4858d3.js",
+    "static/media/Intro_to_mobile_app.pdf": "/My_Portfolio/static/media/Intro_to_mobile_app.69cd714f7d59d829e110.pdf",
+    "static/media/Intro_to_Databases_Meta.pdf": "/My_Portfolio/static/media/Intro_to_Databases_Meta.a8130e4ed281eabfe306.pdf",
+    "static/media/AWS_udemy.pdf": "/My_Portfolio/static/media/AWS_udemy.2da2c93a4694fb2765f5.pdf",
     "static/media/Jospin_Resume.pdf": "/My_Portfolio/static/media/Jospin_Resume.7376d035de9a7f24e362.pdf",
     "static/media/react.png": "/My_Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/github.png": "/My_Portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/javascript.png": "/My_Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/My_Portfolio/index.html",
-    "main.5d8667df.css.map": "/My_Portfolio/static/css/main.5d8667df.css.map",
-    "main.1fd89f47.js.map": "/My_Portfolio/static/js/main.1fd89f47.js.map"
+    "main.fe5ce55b.css.map": "/My_Portfolio/static/css/main.fe5ce55b.css.map",
+    "main.fd4858d3.js.map": "/My_Portfolio/static/js/main.fd4858d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d8667df.css",
-    "static/js/main.1fd89f47.js"
+    "static/css/main.fe5ce55b.css",
+    "static/js/main.fd4858d3.js"
   ]
 }
